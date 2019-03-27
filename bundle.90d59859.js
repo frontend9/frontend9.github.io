@@ -6530,7 +6530,7 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
       alt: "frontend_9"
     }), i.default.createElement("div", {
       className: "desc"
-    }, i.default.createElement("h1", null, "欢迎来到前端九部"), i.default.createElement("h3", null, "这里有一群热爱前端喜欢分享的码农"))), i.default.createElement("div", {
+    }, i.default.createElement("h1", null, "欢迎来到前端九部"), i.default.createElement("h3", null, "这里是一群喜欢分享交流的前端码农"))), i.default.createElement("div", {
       className: "content"
     }, i.default.createElement("div", null, i.default.createElement("a", {
       href: "//github.com/frontend9/fe9-library",
@@ -6632,7 +6632,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50697" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51980" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
